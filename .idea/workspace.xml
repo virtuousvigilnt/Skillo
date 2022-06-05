@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e8ae592-ab91-4c51-a5e7-3fe8dc5efd76" name="Changes" comment="More stuff">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataStructures/Matrix2D_array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataStructures/BiggestElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DataStructures/Matrix2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/Matrix2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructures/Matrix2D_array.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,20 @@
       <recent name="C:\Users\xo\Documents\Skillo\src\DatatypesAndVariables" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Matrix2D">
+  <component name="RunManager" selected="Application.BiggestElement">
+    <configuration name="BiggestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataStructures.BiggestElement" />
+      <module name="Skillo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataStructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataStructures.SumOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataStructures.SumOfArray" />
       <module name="Skillo" />
@@ -86,19 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RevenueFromSale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OperatorsExpressionsLoops.RevenueFromSale" />
-      <module name="Skillo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OperatorsExpressionsLoops.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="VacationDilemma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OperatorsExpressionsLoops.VacationDilemma" />
       <module name="Skillo" />
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BiggestElement" />
         <item itemvalue="Application.Matrix2D" />
         <item itemvalue="Application.Matrix2D_array" />
         <item itemvalue="Application.DataStructures.SumOfArray" />
         <item itemvalue="Application.VacationDilemma" />
-        <item itemvalue="Application.RevenueFromSale" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654436915061</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="More stuff">
+      <created>1654443788265</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654443788265</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

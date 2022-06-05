@@ -1,3 +1,4 @@
+/* Print elements of a given 2-d matrix with 4 rows and 3 columns */
 package DataStructures;
 
 import java.util.*;
@@ -13,8 +14,9 @@ public class Matrix2D {
                 matrixElements[i][j] = userInput.nextInt();
             }
         }
-
+        System.out.println();
         System.out.println("****** Matrix Elements ******");
+        System.out.println();
 
         for (int i = 0; i < 1; i++) {
             for (int j = 0; j < 3; j++) {
