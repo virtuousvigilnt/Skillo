@@ -3,7 +3,6 @@ package DataStructures;
 
 import java.util.*;
 
-
 public class BiggestElement {
     public static void main(String[] args) {
         List<Integer> myCart = new ArrayList<>();
@@ -19,8 +18,8 @@ public class BiggestElement {
                 break;
             }
         } while (true);
-        userInput.close();
 
+        userInput.close();
         int maxNum = Collections.max(myCart);
 
         System.out.println("Biggest number is: " + maxNum);
