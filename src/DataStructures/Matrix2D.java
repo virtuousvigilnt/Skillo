@@ -1,28 +1,46 @@
-/* Print elements of a given 2-d matrix with 4 rows and 3 columns */
-
 package DataStructures;
 
+import java.util.*;
 public class Matrix2D {
     public static void main(String[] args) {
-        int[][] twoD = new int[4][3];
 
-        twoD[0][0] = 1;
-        twoD[0][1] = 3;
-        twoD[0][2] = 5;
-        twoD[1][0] = 2;
-        twoD[1][1] = 4;
-        twoD[1][2] = 6;
-        twoD[2][0] = 12;
-        twoD[2][1] = 24;
-        twoD[2][2] = 48;
-        twoD[3][0] = -1;
-        twoD[3][1] = -10;
-        twoD[3][2] = -100;
+        int[][] matrixElements = new int[4][3];
+        Scanner userInput = new Scanner(System.in);
 
         for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 3; j++){
-                System.out.println(twoD[i][j]);
+            for (int j = 0; j < 3; j++) {
+                System.out.println("Enter element [" + i + "][" + j + "]: ");
+                matrixElements[i][j] = userInput.nextInt();
             }
         }
+
+        System.out.println("****** Matrix Elements ******");
+
+        for (int i = 0; i < 1; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print(matrixElements[i][j] + "   " );
+            }
+        }
+        System.out.println();
+
+        for (int i = 1; i < 2; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print(matrixElements[i][j] + "   " );
+            }
+        }
+        System.out.println();
+
+        for (int i = 2; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print(matrixElements[i][j] + "   " );
+            }
+        }
+        System.out.println();
+        for (int i = 3; i < 4; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print(matrixElements[i][j] + "   " );
+            }
+        }
+
     }
 }
