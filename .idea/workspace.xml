@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e8ae592-ab91-4c51-a5e7-3fe8dc5efd76" name="Changes" comment="More stuff">
-      <change beforePath="$PROJECT_DIR$/src/DataStructures/BiggestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/BiggestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataStructures/ReverseOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654448254997</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="More stuff">
+      <created>1654448360816</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654448360816</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
