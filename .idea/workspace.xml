@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e8ae592-ab91-4c51-a5e7-3fe8dc5efd76" name="Changes" comment="More stuff">
-      <change afterPath="$PROJECT_DIR$/src/DataStructures/ReverseOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructures/ReverseOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/ReverseOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
       <recent name="C:\Users\xo\Documents\Skillo\src\DatatypesAndVariables" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BiggestElement">
+  <component name="RunManager" selected="Application.ReverseOrder">
     <configuration name="BiggestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataStructures.BiggestElement" />
       <module name="Skillo" />
@@ -58,8 +58,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataStructures.SumOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataStructures.SumOfArray" />
+    <configuration name="LinkedListTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataStructures.LinkedListTest1" />
       <module name="Skillo" />
       <extension name="coverage">
         <pattern>
@@ -97,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VacationDilemma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OperatorsExpressionsLoops.VacationDilemma" />
+    <configuration name="ReverseOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataStructures.ReverseOrder" />
       <module name="Skillo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OperatorsExpressionsLoops.*" />
+          <option name="PATTERN" value="DataStructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseOrder" />
+        <item itemvalue="Application.LinkedListTest1" />
         <item itemvalue="Application.BiggestElement" />
         <item itemvalue="Application.Matrix2D" />
         <item itemvalue="Application.Matrix2D_array" />
-        <item itemvalue="Application.DataStructures.SumOfArray" />
-        <item itemvalue="Application.VacationDilemma" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654448360816</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="More stuff">
+      <created>1654498206885</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654498206885</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
