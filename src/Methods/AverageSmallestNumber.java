@@ -1,9 +1,7 @@
 /*
 1. Write a Java method to find the smallest number among three numbers
 2. Write a Java method to compute the average of three numbers.
-3. Write a Java method to display the middle character of a string.
 */
-
 package Methods;
 
 import java.util.*;
